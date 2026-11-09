@@ -18,18 +18,10 @@ Each experiment directory follows the same layout:
 ```
 EXP<n>_<codename>/
 ├── code/       # generation, judging, analysis scripts (frozen copies)
-├── data/       # trajectories, judge inputs/outputs (JSONL)
-├── results/    # figures, analysis reports
-└── MANIFEST.md / AUDIT_REPORT.txt
+└── data/       # trajectories, judge inputs/outputs (JSONL)
 ```
 
-Top-level artifacts:
-
-- `EXPERIMENT_LOG.md` — the single experiment ledger (all numbers, their provenance, and methodology decisions)
-- `FROZEN_MANIFEST.md`, `FROZEN_FILES.md`, `frozen_registry.json` — frozen-result integrity system (MD5 baseline + `verify_frozen.py` drift detection)
-- `PAPER_WRITING_KIT.md` — consolidated numbers and writing guidelines
-- `figs/`, `attn_viz/` — paper figures including attention heatmaps (L15H24 / L20H24 / L22H2, hallucination vs. self-recovery turns)
-- `bus_images/` — sample images used in qualitative visualizations
+Root-level scripts mirror the same pipeline (dialogue construction, generation, judging, attention analysis); `data/examples/` holds the sample release (see below).
 
 ## Data
 
@@ -50,7 +42,6 @@ Top-level artifacts:
 3. **Judging** — `judge_prompt.py` + `run_glm_judge.py` call an LLM judge (memoryless, 3-field verdict: hallucination / faithful / undetermined) on every round.
 4. **Analysis** — `analyze_*.py` compute per-round curves, transition matrices, self-recovery rates, and bootstrap CIs.
 5. **Attention analysis (EXP3)** — `server_attn_perlayer.py` / `analyze_attn_controlled.py`: stratified matching on exact bitmask of prior H/F history, permutation tests with max-|delta| statistic, split-half replication.
-6. **Integrity** — `verify_frozen.py` re-verifies MD5s of all frozen artifacts.
 
 ## A Note on Credentials
 
@@ -64,7 +55,7 @@ To re-run, set these via environment variables or your own configuration.
 
 ## Requirements
 
-See `requirements.txt`. Development used Python 3.10+, PyTorch 2.x, Transformers (4.x for InternVL compatibility notes, see `EXPERIMENT_LOG.md`).
+See `requirements.txt`. Development used Python 3.10+, PyTorch 2.x, Transformers (4.x for InternVL compatibility notes).
 
 ## License
 

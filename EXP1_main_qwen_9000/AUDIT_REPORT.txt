@@ -1,0 +1,77 @@
+==============================================================================
+A. COVERAGE  (judge_input vs judge_output)
+==============================================================================
+  input rows=9000  output rows=9000
+  [OK]   both files have exactly 9000 rows
+  [OK]   input uids unique (9000/9000)
+  [OK]   output uids unique (9000/9000)
+  [OK]   input uid set == output uid set (no missing, no orphan)
+
+==============================================================================
+B. ERRORS
+==============================================================================
+  verdicts: {'hallucination': 5686, 'faithful': 3314}
+  [OK]   zero error verdicts
+  [OK]   no unexpected verdict labels
+
+==============================================================================
+C. DESIGN BALANCE  (6 settings x 2 conditions x rounds)
+==============================================================================
+  settings(6): ['cleanconv_formatting', 'cleanconv_question', 'factconv_formatting', 'halluconv_formatting', 'halluconv_question', 'irrconv_formatting']
+  conditions(2): ['baseline', 'injection']
+  [OK]   exactly 6 settings
+  [OK]   exactly 2 conditions
+  [OK]   every injection (setting,round) cell has 150 rows (50 img x 3 traj)
+  [OK]   every baseline (setting,round) cell has 150 rows
+  unique (sample,setting,traj) combos = 900
+  [OK]   900 unique trajectories = 50 img x 6 setting x 3 traj
+  [OK]   setting 'cleanconv_formatting' covers all 50 images (got 50)
+  [OK]   setting 'cleanconv_question' covers all 50 images (got 50)
+  [OK]   setting 'factconv_formatting' covers all 50 images (got 50)
+  [OK]   setting 'halluconv_formatting' covers all 50 images (got 50)
+  [OK]   setting 'halluconv_question' covers all 50 images (got 50)
+  [OK]   setting 'irrconv_formatting' covers all 50 images (got 50)
+
+==============================================================================
+D. SOURCE COMPLETENESS  (fused_50_out_v3)
+==============================================================================
+  fused records=50  unique samples=50
+  [OK]   fused has 50 unique samples
+  [OK]   one fused record per sample
+  [OK]   all 6x2 condition x setting cells present for all 50 samples ([])
+
+==============================================================================
+E. DEGRADATION  (model says it cannot see the image)
+==============================================================================
+  strict-pattern degraded outputs = 7 / 9000 = 0.08%
+  [OK]   degradation rate < 2%
+
+==============================================================================
+F. PUBLISHED-NUMBER REPRODUCIBILITY
+==============================================================================
+  -- injection vs baseline by setting --
+    cleanconv_formatting   baseline=0.133  injection=0.689  delta=+0.556
+  [OK]   cleanconv_formatting: injection >> baseline (delta +0.556)
+    cleanconv_question     baseline=0.113  injection=0.690  delta=+0.576
+  [OK]   cleanconv_question: injection >> baseline (delta +0.576)
+    factconv_formatting    baseline=0.120  injection=0.650  delta=+0.530
+  [OK]   factconv_formatting: injection >> baseline (delta +0.530)
+    halluconv_formatting   baseline=0.127  injection=0.711  delta=+0.584
+  [OK]   halluconv_formatting: injection >> baseline (delta +0.584)
+    halluconv_question     baseline=0.133  injection=0.704  delta=+0.570
+  [OK]   halluconv_question: injection >> baseline (delta +0.570)
+    irrconv_formatting     baseline=0.047  injection=0.694  delta=+0.647
+  [OK]   irrconv_formatting: injection >> baseline (delta +0.647)
+  -- hallucination rate by attack category (injection) --
+    entity_missing           0.951  (n=1800)
+    background_fabrication   0.663  (n=1800)
+    context_pollution        0.645  (n=1800)
+    attribute_reversal       0.604  (n=1800)
+    dataset_final            0.479  (n=900)
+  transition HH=3711 HF=1443 FH=1043 FF=1003
+  ** self-recovery H->F = 1443/5154 = 28.0% **
+  [OK]   self-recovery reproduces published 28.0% (got 28.0%)
+
+==============================================================================
+AUDIT RESULT: ALL CHECKS PASSED -- safe to freeze
+==============================================================================

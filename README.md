@@ -31,6 +31,18 @@ Top-level artifacts:
 - `figs/`, `attn_viz/` — paper figures including attention heatmaps (L15H24 / L20H24 / L22H2, hallucination vs. self-recovery turns)
 - `bus_images/` — sample images used in qualitative visualizations
 
+## Data
+
+**Examples (released now).** `data/examples/` contains 3 example samples, each with the source image and its full annotated dialogue:
+
+- `04724052.jpg` — injected false premise *"car"* vs. ground truth *"bus"* (existence-type injection)
+- `10768688.jpg` — injected false premise *"building"* vs. ground truth *"bus"*
+- `131064738.jpg` — attribute-reversal injection on an elephants image (the sample used for the attention visualizations)
+
+`data/examples/annotations.json` provides, per sample: the dataset's own image description, the ground-truth fact, the injected hallucinatory fact, and the **full 9-round injection dialogue** (question, model response, and per-round hallucination/faithful verdict by the LLM judge) from EXP4 (Qwen2.5-VL-7B-Instruct, temperature 0.7, trajectory t0).
+
+**Full dataset (coming soon).** The complete set of 1,000 images and all annotated multi-turn dialogues (EXP1: 50 images × 9,000 judged units; EXP2: 5 models × 648; EXP4: 1,000 images × 30,000 judged units) will be **released progressively** — we plan to open up the full annotated data in stages as the paper progresses through review/publication. The judge input/output files already included in the `EXP*/data/` directories contain the complete questions, responses, and verdicts; the remaining images accompany them in a later batch.
+
 ## Pipeline Overview
 
 1. **Dialogue construction** — `construct_inject_v3_server.py` / `construct_inject_v3_1000.py` build multi-turn dialogues with 8 categories of injected false premises (entity_missing, attribute_reversal, background_fabrication, context_pollution), with lead/escalate scheduling across rounds.

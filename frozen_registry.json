@@ -1,0 +1,853 @@
+{
+ "frozen_at": "2026-11-07 18:54:32",
+ "workspace": "D:\\<WORKSPACE>\\2026-10-22-21-31-41",
+ "note": "MD5 baseline. Run verify_frozen.py to detect ANY change. copied=false means verified in place (already-frozen EXP1 or shared infra).",
+ "rounds": {
+  "EXP1_main_qwen_9000": {
+   "status": "FROZEN_2026-10-26 (verify-only)",
+   "files": [
+    {
+     "src": "EXP1_main_qwen_9000/MANIFEST.md",
+     "frozen_path": "EXP1_main_qwen_9000/MANIFEST.md",
+     "copied": false,
+     "md5": "7b8affe588fdeffecaa1aa5baadee7e1",
+     "bytes": 5003,
+     "lines": 90
+    },
+    {
+     "src": "EXP1_main_qwen_9000/AUDIT_REPORT.txt",
+     "frozen_path": "EXP1_main_qwen_9000/AUDIT_REPORT.txt",
+     "copied": false,
+     "md5": "ea750183afdcebc67c7c11fe466578eb",
+     "bytes": 4319,
+     "lines": 77
+    },
+    {
+     "src": "EXP1_main_qwen_9000/data/fused_50_out_v3.jsonl",
+     "frozen_path": "EXP1_main_qwen_9000/data/fused_50_out_v3.jsonl",
+     "copied": false,
+     "md5": "ebf5e0ed376eb3aba6386a726675a191",
+     "bytes": 8098130,
+     "lines": 50
+    },
+    {
+     "src": "EXP1_main_qwen_9000/data/judge_input.jsonl",
+     "frozen_path": "EXP1_main_qwen_9000/data/judge_input.jsonl",
+     "copied": false,
+     "md5": "8eaa8285f6bbbe5cbefb9c58efbb2f34",
+     "bytes": 9482947,
+     "lines": 9000
+    },
+    {
+     "src": "EXP1_main_qwen_9000/data/judge_output.jsonl",
+     "frozen_path": "EXP1_main_qwen_9000/data/judge_output.jsonl",
+     "copied": false,
+     "md5": "e0ddba3903605f586cfaac467bb6eaae",
+     "bytes": 4701163,
+     "lines": 9000
+    },
+    {
+     "src": "EXP1_main_qwen_9000/results/result_judge_analysis.md",
+     "frozen_path": "EXP1_main_qwen_9000/results/result_judge_analysis.md",
+     "copied": false,
+     "md5": "a4d667d4a464d920fff611cbcbad0a8a",
+     "bytes": 3721,
+     "lines": 54
+    },
+    {
+     "src": "EXP1_main_qwen_9000/results/self_recovery_analysis.md",
+     "frozen_path": "EXP1_main_qwen_9000/results/self_recovery_analysis.md",
+     "copied": false,
+     "md5": "d71a477f1d72b599dedf0c2bbd86cbcf",
+     "bytes": 4157,
+     "lines": 43
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/run_qwen_fused_batch.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/run_qwen_fused_batch.py",
+     "copied": false,
+     "md5": "373e260ee9ed47e6df2097c537b23c39",
+     "bytes": 18699,
+     "lines": 391
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/construct_inject_v3_server.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/construct_inject_v3_server.py",
+     "copied": false,
+     "md5": "03eb1876427b3d05671396758fc850ed",
+     "bytes": 26206,
+     "lines": 464
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/export_judge_input.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/export_judge_input.py",
+     "copied": false,
+     "md5": "447aa527b73ce9fb828485bda3f9a218",
+     "bytes": 2312,
+     "lines": 51
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/judge_prompt.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/judge_prompt.py",
+     "copied": false,
+     "md5": "4ea7bb320d0eb7ce36429895e9c1f90a",
+     "bytes": 6394,
+     "lines": 132
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/run_glm_judge.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/run_glm_judge.py",
+     "copied": false,
+     "md5": "c5f9c486358781520b431ddc6e5b9e09",
+     "bytes": 4979,
+     "lines": 118
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/analyze_results_fast.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/analyze_results_fast.py",
+     "copied": false,
+     "md5": "f73c72c2a15f39a93df4cf778d00be76",
+     "bytes": 9477,
+     "lines": 222
+    },
+    {
+     "src": "EXP1_main_qwen_9000/code/audit_main_experiment.py",
+     "frozen_path": "EXP1_main_qwen_9000/code/audit_main_experiment.py",
+     "copied": false,
+     "md5": "188fd30ce3036f9b6522b5363948d208",
+     "bytes": 6923,
+     "lines": 168
+    }
+   ]
+  },
+  "EXP2_crossmodel": {
+   "status": "FROZEN_2026-11-07 (copied)",
+   "files": [
+    {
+     "src": "cross_model_judge_input_llava.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_input_llava.jsonl",
+     "copied": true,
+     "md5": "a14c55f27e74a0b795e539a2112b685c",
+     "bytes": 457844,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_output_llava.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_output_llava.jsonl",
+     "copied": true,
+     "md5": "623cec5bc4c87dec8f3c0d14356bb34a",
+     "bytes": 325711,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_input_internvl.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_input_internvl.jsonl",
+     "copied": true,
+     "md5": "00bcb52aef6450d25e2582b1b36e0002",
+     "bytes": 403728,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_output_internvl.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_output_internvl.jsonl",
+     "copied": true,
+     "md5": "037c1e86e5dc7d3017e85dac175363d4",
+     "bytes": 322266,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_input_gpt4o.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_input_gpt4o.jsonl",
+     "copied": true,
+     "md5": "20f015d0b956e4e6101b935df3a55800",
+     "bytes": 408630,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_output_gpt4o.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_output_gpt4o.jsonl",
+     "copied": true,
+     "md5": "35e098df4bd6cbadda17f73d16168fd5",
+     "bytes": 329960,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_input_gemini25flash.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_input_gemini25flash.jsonl",
+     "copied": true,
+     "md5": "8a4025edc4a16761bd116ff6995b5bb9",
+     "bytes": 430962,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_output_gemini25flash.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_output_gemini25flash.jsonl",
+     "copied": true,
+     "md5": "eda1bbe10cd9df294a6b82814973be95",
+     "bytes": 334678,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_input_claudesonnet46.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_input_claudesonnet46.jsonl",
+     "copied": true,
+     "md5": "890513469ed6474b02545fb8a8520be2",
+     "bytes": 589454,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_judge_output_claudesonnet46.jsonl",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_judge_output_claudesonnet46.jsonl",
+     "copied": true,
+     "md5": "c4d8b0e5c86604a2c246099791037b71",
+     "bytes": 341824,
+     "lines": 648
+    },
+    {
+     "src": "cross_model_selection.json",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_selection.json",
+     "copied": true,
+     "md5": "461d01353433af88eefefd88c718c389",
+     "bytes": 5422,
+     "lines": 182
+    },
+    {
+     "src": "cross_model_selection_attn.json",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_selection_attn.json",
+     "copied": true,
+     "md5": "f614713fbff096c1c78484e2c2d54c2c",
+     "bytes": 6837,
+     "lines": 362
+    },
+    {
+     "src": "cross_model_selection_ids.json",
+     "frozen_path": "EXP2_crossmodel\\data\\cross_model_selection_ids.json",
+     "copied": true,
+     "md5": "b572bf6a2cb83c546734c25fc90aa89b",
+     "bytes": 229,
+     "lines": 17
+    },
+    {
+     "src": "cross_model_analysis_internvl.md",
+     "frozen_path": "EXP2_crossmodel\\results\\cross_model_analysis_internvl.md",
+     "copied": true,
+     "md5": "5f0c6409b1321d5e48c9e630f8b3abd5",
+     "bytes": 1477,
+     "lines": 31
+    },
+    {
+     "src": "figs/figA_five_model_oscillation.png",
+     "frozen_path": "EXP2_crossmodel\\results\\figA_five_model_oscillation.png",
+     "copied": true,
+     "md5": "b256d4da3c59645affdc735f657f626b",
+     "bytes": 241628,
+     "lines": null
+    },
+    {
+     "src": "figs/figB_self_recovery_bar.png",
+     "frozen_path": "EXP2_crossmodel\\results\\figB_self_recovery_bar.png",
+     "copied": true,
+     "md5": "e1b0a88ca5186634dd44ece8a9425440",
+     "bytes": 104280,
+     "lines": null
+    },
+    {
+     "src": "cross_images/00107236.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\00107236.jpg",
+     "copied": true,
+     "md5": "a18e21ee140117977b8f06147323e558",
+     "bytes": 55166,
+     "lines": null
+    },
+    {
+     "src": "cross_images/01938383.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\01938383.jpg",
+     "copied": true,
+     "md5": "9e177cdf11a7b506046f26984522449e",
+     "bytes": 44623,
+     "lines": null
+    },
+    {
+     "src": "cross_images/03799686.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\03799686.jpg",
+     "copied": true,
+     "md5": "b8ddd0876197295e20306c2121affef1",
+     "bytes": 58460,
+     "lines": null
+    },
+    {
+     "src": "cross_images/04554655.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\04554655.jpg",
+     "copied": true,
+     "md5": "506a48c398ad9088e7f51c36e7746ac9",
+     "bytes": 45778,
+     "lines": null
+    },
+    {
+     "src": "cross_images/071003205.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\071003205.jpg",
+     "copied": true,
+     "md5": "cbfaa70dfd5a62e2dcf2ec2c617ca285",
+     "bytes": 61923,
+     "lines": null
+    },
+    {
+     "src": "cross_images/07684600.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\07684600.jpg",
+     "copied": true,
+     "md5": "2b448238f5c0f5dfa5fb089d104ece37",
+     "bytes": 69660,
+     "lines": null
+    },
+    {
+     "src": "cross_images/10560550.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\10560550.jpg",
+     "copied": true,
+     "md5": "0620842f97ed500a2fb178ffe16f43b1",
+     "bytes": 41949,
+     "lines": null
+    },
+    {
+     "src": "cross_images/10839120.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\10839120.jpg",
+     "copied": true,
+     "md5": "ad9889db64d18f9df7d80ebbae098686",
+     "bytes": 31232,
+     "lines": null
+    },
+    {
+     "src": "cross_images/12281968.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\12281968.jpg",
+     "copied": true,
+     "md5": "44f8bca141e28f55a6ad12a568f9d9ad",
+     "bytes": 52141,
+     "lines": null
+    },
+    {
+     "src": "cross_images/12387507.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\12387507.jpg",
+     "copied": true,
+     "md5": "bcba25a46fb1b1dfb66a29bc1bfa949b",
+     "bytes": 49277,
+     "lines": null
+    },
+    {
+     "src": "cross_images/13325312.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\13325312.jpg",
+     "copied": true,
+     "md5": "d7ae564ad6f480caeba02683a3f7bc9c",
+     "bytes": 93002,
+     "lines": null
+    },
+    {
+     "src": "cross_images/13755465.jpg",
+     "frozen_path": "EXP2_crossmodel\\assets\\13755465.jpg",
+     "copied": true,
+     "md5": "93fad3e569e633a269aad643758d8ce0",
+     "bytes": 169400,
+     "lines": null
+    },
+    {
+     "src": "server_cross_model_probe.py",
+     "frozen_path": "EXP2_crossmodel\\code\\server_cross_model_probe.py",
+     "copied": true,
+     "md5": "790c22eadfc03734e8436ae6834cb6e8",
+     "bytes": 6911,
+     "lines": 151
+    },
+    {
+     "src": "server_cross_model_internvl.py",
+     "frozen_path": "EXP2_crossmodel\\code\\server_cross_model_internvl.py",
+     "copied": true,
+     "md5": "7e1df2bd2f32101813f5e4b55c3b9637",
+     "bytes": 10832,
+     "lines": 238
+    },
+    {
+     "src": "run_api_vlm_local.py",
+     "frozen_path": "EXP2_crossmodel\\code\\run_api_vlm_local.py",
+     "copied": true,
+     "md5": "bbe5ae183888de3272a37f927fe369d1",
+     "bytes": 6686,
+     "lines": 172
+    },
+    {
+     "src": "analyze_cross_model.py",
+     "frozen_path": "EXP2_crossmodel\\code\\analyze_cross_model.py",
+     "copied": true,
+     "md5": "aaba70784bcf453bee0c10d18444493c",
+     "bytes": 4902,
+     "lines": 118
+    },
+    {
+     "src": "analyze_frontier.py",
+     "frozen_path": "EXP2_crossmodel\\code\\analyze_frontier.py",
+     "copied": true,
+     "md5": "3ed1e851c5d4a97005b31341bbb84f2b",
+     "bytes": 2906,
+     "lines": 72
+    }
+   ]
+  },
+  "EXP3_attention_mechanism": {
+   "status": "FROZEN_2026-11-07 (copied)",
+   "files": [
+    {
+     "src": "attn_perlayer_hf.jsonl",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_perlayer_hf.jsonl",
+     "copied": true,
+     "md5": "21e104983e69fd4fa89b44384b687c0d",
+     "bytes": 21715502,
+     "lines": 2763
+    },
+    {
+     "src": "attn_perlayer_ff.jsonl",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_perlayer_ff.jsonl",
+     "copied": true,
+     "md5": "23177365e15c5e9e04e1df140a3be633",
+     "bytes": 5249850,
+     "lines": 668
+    },
+    {
+     "src": "attn_decompose_hf.jsonl",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_decompose_hf.jsonl",
+     "copied": true,
+     "md5": "ff266578568a0c94dc84493510420bd5",
+     "bytes": 12545563,
+     "lines": 2763
+    },
+    {
+     "src": "attn_selection_hf.jsonl",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_selection_hf.jsonl",
+     "copied": true,
+     "md5": "fa272866a1ff78df9174384e7c0175c3",
+     "bytes": 581334,
+     "lines": 2763
+    },
+    {
+     "src": "attn_selection_ff.jsonl",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_selection_ff.jsonl",
+     "copied": true,
+     "md5": "bd80f794821c07e668cdea9b52697d25",
+     "bytes": 144533,
+     "lines": 668
+    },
+    {
+     "src": "attn_selection_expanded.json",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_selection_expanded.json",
+     "copied": true,
+     "md5": "3d4e528a28e549db1bc72e7881babccc",
+     "bytes": 6261,
+     "lines": 362
+    },
+    {
+     "src": "attn_smoke.jsonl",
+     "frozen_path": "EXP3_attention_mechanism\\data\\attn_smoke.jsonl",
+     "copied": true,
+     "md5": "a26ab3820c99cf805d547cdfd8a723e0",
+     "bytes": 94579,
+     "lines": 12
+    },
+    {
+     "src": "figs/figC_layer_var.png",
+     "frozen_path": "EXP3_attention_mechanism\\results\\figC_layer_var.png",
+     "copied": true,
+     "md5": "2e4ed3913ee2dfbf5d4f2367eacef312",
+     "bytes": 342898,
+     "lines": null
+    },
+    {
+     "src": "figs/figC_layer_delta.png",
+     "frozen_path": "EXP3_attention_mechanism\\results\\figC_layer_delta.png",
+     "copied": true,
+     "md5": "68655b5645e5954149747d69d8afd5fe",
+     "bytes": 129255,
+     "lines": null
+    },
+    {
+     "src": "figs/figC_layer_delta_lift.png",
+     "frozen_path": "EXP3_attention_mechanism\\results\\figC_layer_delta_lift.png",
+     "copied": true,
+     "md5": "5d7cb9b8dc633a4d53c463d5d5e43423",
+     "bytes": 132648,
+     "lines": null
+    },
+    {
+     "src": "figs/figC_rounds_r3_r7.png",
+     "frozen_path": "EXP3_attention_mechanism\\results\\figC_rounds_r3_r7.png",
+     "copied": true,
+     "md5": "709881c0edbec7c570eaa36f1f467818",
+     "bytes": 232695,
+     "lines": null
+    },
+    {
+     "src": "figs/figD_head_signature.png",
+     "frozen_path": "EXP3_attention_mechanism\\results\\figD_head_signature.png",
+     "copied": true,
+     "md5": "9393d9ac9dfd38324aa74cd6d90af6c7",
+     "bytes": 76783,
+     "lines": null
+    },
+    {
+     "src": "figs/figD_mechanism_decompose.png",
+     "frozen_path": "EXP3_attention_mechanism\\results\\figD_mechanism_decompose.png",
+     "copied": true,
+     "md5": "37748bf1899b072307d9736f0664275d",
+     "bytes": 218237,
+     "lines": null
+    },
+    {
+     "src": "build_attn_selection_hf.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\build_attn_selection_hf.py",
+     "copied": true,
+     "md5": "2a5428a3d34a9c06ec32c22208308b52",
+     "bytes": 6942,
+     "lines": 183
+    },
+    {
+     "src": "build_attn_selection_ff.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\build_attn_selection_ff.py",
+     "copied": true,
+     "md5": "d07e640af59af14b2648ee76b0a5e636",
+     "bytes": 3467,
+     "lines": 96
+    },
+    {
+     "src": "server_attn_perlayer.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\server_attn_perlayer.py",
+     "copied": true,
+     "md5": "24c097d206620483288f6416e513f927",
+     "bytes": 11881,
+     "lines": 308
+    },
+    {
+     "src": "server_attn_decompose.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\server_attn_decompose.py",
+     "copied": true,
+     "md5": "948a87603c394bc261a5e556d42bdb3b",
+     "bytes": 11105,
+     "lines": 303
+    },
+    {
+     "src": "analyze_attn_perlayer.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\analyze_attn_perlayer.py",
+     "copied": true,
+     "md5": "7d1d01d9ec164560585a62f770a2b2f0",
+     "bytes": 9584,
+     "lines": 249
+    },
+    {
+     "src": "analyze_attn_controlled.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\analyze_attn_controlled.py",
+     "copied": true,
+     "md5": "79554d1d0da8272a7571bc0c1d5f7917",
+     "bytes": 12717,
+     "lines": 300
+    },
+    {
+     "src": "analyze_decompose.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\analyze_decompose.py",
+     "copied": true,
+     "md5": "31f351c8f638fd85eaa5c9e328bdbda1",
+     "bytes": 5477,
+     "lines": 143
+    },
+    {
+     "src": "make_figC.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\make_figC.py",
+     "copied": true,
+     "md5": "04988e4ea86b6779da09e3f1432af6af",
+     "bytes": 6929,
+     "lines": 182
+    },
+    {
+     "src": "make_figD_heads.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\make_figD_heads.py",
+     "copied": true,
+     "md5": "c07e04287aa7c4ec4f3c084abbe18285",
+     "bytes": 4184,
+     "lines": 104
+    },
+    {
+     "src": "diag_permutation.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\diag_permutation.py",
+     "copied": true,
+     "md5": "75eff908ca744113a6075b7a9033f3db",
+     "bytes": 3299,
+     "lines": 83
+    },
+    {
+     "src": "diag_splithalf.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\diag_splithalf.py",
+     "copied": true,
+     "md5": "bebd8dd0a9b3c53a78872d9d40bd83ec",
+     "bytes": 2744,
+     "lines": 72
+    },
+    {
+     "src": "diag_residualize.py",
+     "frozen_path": "EXP3_attention_mechanism\\code\\diag_residualize.py",
+     "copied": true,
+     "md5": "5dae11b14df71e0a8e7d44d8305ece38",
+     "bytes": 3350,
+     "lines": 92
+    }
+   ]
+  },
+  "EXP4_mega_qwen_1000": {
+   "status": "FROZEN_2026-11-07 (copied)",
+   "files": [
+    {
+     "src": "fused_1000_hallu_a.jsonl",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\fused_1000_hallu_a.jsonl",
+     "copied": true,
+     "md5": "7236be09343d555e900b6ac42d11809c",
+     "bytes": 13783878,
+     "lines": 500
+    },
+    {
+     "src": "fused_1000_hallu_b.jsonl",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\fused_1000_hallu_b.jsonl",
+     "copied": true,
+     "md5": "e07d5185044ed88b5d0b59e011f03995",
+     "bytes": 13991721,
+     "lines": 500
+    },
+    {
+     "src": "fused_1000_merged.jsonl",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\fused_1000_merged.jsonl",
+     "copied": true,
+     "md5": "2285a594212790ae72a2e9f156cac094",
+     "bytes": 27776599,
+     "lines": 1000
+    },
+    {
+     "src": "judge_input_exp4.jsonl",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\judge_input_exp4.jsonl",
+     "copied": true,
+     "md5": "ac42d876b12bd082af8cbecb035399d5",
+     "bytes": 39618023,
+     "lines": 30000
+    },
+    {
+     "src": "judge_output_exp4.jsonl",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\judge_output_exp4.jsonl",
+     "copied": true,
+     "md5": "8be609b9e4917216389534685586fa84",
+     "bytes": 15888651,
+     "lines": 30000
+    },
+    {
+     "src": "test_set_1000.json",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\test_set_1000.json",
+     "copied": true,
+     "md5": "6048b2834b3a9af52a47dc2207bb75d3",
+     "bytes": 9177239,
+     "lines": 210002
+    },
+    {
+     "src": "test_set_1000.jsonl",
+     "frozen_path": "EXP4_mega_qwen_1000\\data\\test_set_1000.jsonl",
+     "copied": true,
+     "md5": "f700e75d6b16ce853fa25ed28d18dfc5",
+     "bytes": 8058236,
+     "lines": 1000
+    },
+    {
+     "src": "fig_mega_1000.pdf",
+     "frozen_path": "EXP4_mega_qwen_1000\\results\\fig_mega_1000.pdf",
+     "copied": true,
+     "md5": "c31cc024651deb173c7c068fa3327647",
+     "bytes": 26417,
+     "lines": null
+    },
+    {
+     "src": "EXP4_MEGA_ANALYSIS.md",
+     "frozen_path": "EXP4_mega_qwen_1000\\results\\EXP4_MEGA_ANALYSIS.md",
+     "copied": true,
+     "md5": "d30b467763a0745bf6df66a999da4a5c",
+     "bytes": 2240,
+     "lines": 46
+    },
+    {
+     "src": "EXP4_MEGA_PLAN.md",
+     "frozen_path": "EXP4_mega_qwen_1000\\results\\EXP4_MEGA_PLAN.md",
+     "copied": true,
+     "md5": "a26b645a8ec6ee1cef7f7a6583e65816",
+     "bytes": 5489,
+     "lines": 100
+    },
+    {
+     "src": "construct_inject_v3_1000.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\construct_inject_v3_1000.py",
+     "copied": true,
+     "md5": "484f63acf2f7c66d1ae48d0fa9ea0562",
+     "bytes": 26310,
+     "lines": 465
+    },
+    {
+     "src": "build_judge_input_exp4.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\build_judge_input_exp4.py",
+     "copied": true,
+     "md5": "e03ef4c177c78f3bc52e65da51052069",
+     "bytes": 4011,
+     "lines": 82
+    },
+    {
+     "src": "analyze_exp4.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\analyze_exp4.py",
+     "copied": true,
+     "md5": "0965f1666d053170c35bda263399ce51",
+     "bytes": 10382,
+     "lines": 250
+    },
+    {
+     "src": "run_glm_judge.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\run_glm_judge.py",
+     "copied": true,
+     "md5": "5909a0f3db1d94a847caf4e8e3909175",
+     "bytes": 4980,
+     "lines": 118
+    },
+    {
+     "src": "judge_prompt.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\judge_prompt.py",
+     "copied": true,
+     "md5": "4ea7bb320d0eb7ce36429895e9c1f90a",
+     "bytes": 6394,
+     "lines": 132
+    },
+    {
+     "src": "run_qwen_fused_batch.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\run_qwen_fused_batch.py",
+     "copied": true,
+     "md5": "373e260ee9ed47e6df2097c537b23c39",
+     "bytes": 18699,
+     "lines": 391
+    },
+    {
+     "src": "ssh_server.py",
+     "frozen_path": "EXP4_mega_qwen_1000\\code\\ssh_server.py",
+     "copied": true,
+     "md5": "03da37479605d3e497160243f76ea887",
+     "bytes": 3182,
+     "lines": 101
+    }
+   ]
+  }
+ },
+ "shared": [
+  {
+   "src": "run_qwen_fused_batch.py",
+   "frozen_path": "run_qwen_fused_batch.py",
+   "copied": false,
+   "md5": "373e260ee9ed47e6df2097c537b23c39",
+   "bytes": 18699,
+   "lines": 391
+  },
+  {
+   "src": "construct_inject_v3_server.py",
+   "frozen_path": "construct_inject_v3_server.py",
+   "copied": false,
+   "md5": "03eb1876427b3d05671396758fc850ed",
+   "bytes": 26206,
+   "lines": 464
+  },
+  {
+   "src": "export_judge_input.py",
+   "frozen_path": "export_judge_input.py",
+   "copied": false,
+   "md5": "447aa527b73ce9fb828485bda3f9a218",
+   "bytes": 2312,
+   "lines": 51
+  },
+  {
+   "src": "judge_prompt.py",
+   "frozen_path": "judge_prompt.py",
+   "copied": false,
+   "md5": "4ea7bb320d0eb7ce36429895e9c1f90a",
+   "bytes": 6394,
+   "lines": 132
+  },
+  {
+   "src": "run_glm_judge.py",
+   "frozen_path": "run_glm_judge.py",
+   "copied": false,
+   "md5": "5909a0f3db1d94a847caf4e8e3909175",
+   "bytes": 4980,
+   "lines": 118
+  },
+  {
+   "src": "audit_main_experiment.py",
+   "frozen_path": "audit_main_experiment.py",
+   "copied": false,
+   "md5": "188fd30ce3036f9b6522b5363948d208",
+   "bytes": 6923,
+   "lines": 168
+  },
+  {
+   "src": "freeze_snapshot.py",
+   "frozen_path": "freeze_snapshot.py",
+   "copied": false,
+   "md5": "494be86efaf6ad7be018df88816e4a06",
+   "bytes": 5803,
+   "lines": 146
+  },
+  {
+   "src": "_server_run_qwen_fused_batch.py",
+   "frozen_path": "_server_run_qwen_fused_batch.py",
+   "copied": false,
+   "md5": "35642037cbb2126a7dc833ec9b737da2",
+   "bytes": 18308,
+   "lines": 391
+  },
+  {
+   "src": "EXPERIMENT_LOG.md",
+   "frozen_path": "EXPERIMENT_LOG.md",
+   "copied": false,
+   "md5": "6130fec647bb058e2bf3eb68afc7eec0",
+   "bytes": 20540,
+   "lines": 266
+  },
+  {
+   "src": "PAPER_WRITING_KIT.md",
+   "frozen_path": "PAPER_WRITING_KIT.md",
+   "copied": false,
+   "md5": "8170fe4f1f675e59277e597d6bd9f201",
+   "bytes": 19749,
+   "lines": 304
+  },
+  {
+   "src": "FROZEN_MANIFEST.md",
+   "frozen_path": "FROZEN_MANIFEST.md",
+   "copied": false,
+   "md5": "d3e7c80965c300a3fbcf2bb3a3759826",
+   "bytes": 9087,
+   "lines": 127
+  },
+  {
+   "src": "verify_frozen.py",
+   "frozen_path": "verify_frozen.py",
+   "copied": false,
+   "md5": "c3fd278ec91b380bfdbb48e9b5dedd2d",
+   "bytes": 5864,
+   "lines": 150
+  },
+  {
+   "src": "freeze_all_experiments.py",
+   "frozen_path": "freeze_all_experiments.py",
+   "copied": false,
+   "md5": "ccd96550cb0d32780bf9d7452092c40b",
+   "bytes": 9236,
+   "lines": 198
+  }
+ ],
+ "provenance_notes": [
+  "EXP1 frozen 2026-10-26 23:26, MANIFEST.md MD5 table verified unchanged.",
+  "Actual generation engine = run_qwen_fused_batch.py; server copy (LF) is byte-identical to the frozen CRLF copy after stripping CR (md5 differs only by line endings).",
+  "7 v3 shard scripts run_v3_t0.sh..t42.sh all call run_qwen_fused_batch.py --conditions baseline,injection.",
+  "cross_model_judge_input.jsonl (0 bytes, root) is an EMPTY stale stub - DO NOT USE.",
+  "judge_output_mixed_backup.jsonl is historical provenance only - NOT a result source.",
+  "figs/figATT*_selftest.png and *_smoke.png are synthetic/smoke - DO NOT CITE."
+ ]
+}

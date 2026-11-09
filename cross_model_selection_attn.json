@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": "00107236",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "00107236",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "00107236",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "00107236",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "00107236",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "00107236",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "01938383",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "01938383",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "01938383",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "01938383",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "01938383",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "01938383",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "03799686",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "03799686",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "03799686",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "03799686",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "03799686",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "03799686",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "04554655",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "04554655",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "04554655",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "04554655",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "04554655",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "04554655",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "071003205",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "071003205",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "071003205",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "071003205",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "071003205",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "071003205",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "07684600",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "07684600",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "07684600",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "07684600",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "07684600",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "07684600",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10560550",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10560550",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "10560550",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10560550",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10560550",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "10560550",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10839120",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10839120",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "10839120",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10839120",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "10839120",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "10839120",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12281968",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12281968",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "12281968",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12281968",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12281968",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "12281968",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12387507",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12387507",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "12387507",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12387507",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "12387507",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "12387507",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13325312",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13325312",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "13325312",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13325312",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13325312",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "13325312",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13755465",
+    "setting": "cleanconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13755465",
+    "setting": "cleanconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "13755465",
+    "setting": "factconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13755465",
+    "setting": "halluconv_formatting",
+    "traj": 0
+  },
+  {
+    "sample_id": "13755465",
+    "setting": "halluconv_question",
+    "traj": 0
+  },
+  {
+    "sample_id": "13755465",
+    "setting": "irrconv_formatting",
+    "traj": 0
+  }
+]
